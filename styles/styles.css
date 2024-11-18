@@ -1,0 +1,349 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  max-width: 100%;
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+h1 {
+  width: 956px;
+  margin-bottom: 30px;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.interior {
+  position: relative;
+  box-sizing: border-box;
+  background-image: url(../images/Stul.png);
+  height: 500px;
+  max-width: 1150px;
+  padding-left: 127px;
+}
+
+.box>p {
+  position: absolute;
+  width: 430px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.32px;
+  color: white;
+  letter-spacing: -0.03em;
+  left: 40px;
+  bottom: 40px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.59px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  padding-top: 150px;
+}
+
+p.description {
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 61.47px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-top: 30px;
+  width: 1151px;
+}
+
+.container>a {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 20px 40px;
+  background-color: #ad1818;
+  color: #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.project {
+  margin: 0 auto;
+  width: 1400px;
+  background: #ffffff;
+  padding-left: 125px;
+  padding-right: 125px;
+}
+
+.img-project {
+  display: block;
+  height: 450px;
+}
+
+.project-title {
+  font-family: Manrope;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40.98px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  padding-top: 15px;
+}
+
+.in-detail {
+  background: none;
+  color: #ad1818;
+  font-size: 20px;
+  line-height: 27.32px;
+  margin: 0;
+  height: 27px;
+  font-weight: 400px;
+  padding-left: 2px;
+  padding-top: 15px;
+  margin-bottom: 90px;
+}
+
+.item>li {
+  margin-bottom: 90px;
+}
+
+
+
+
+
+.project-btn {
+  background-color: white;
+  color: #ad1818;
+  border-color: #ad1818;
+  border-radius: 5px;
+  width: 100%;
+  height: 153px;
+  font-size: 30px;
+  cursor: pointer;
+  margin-top: 0x;
+  padding: 0;
+  margin-bottom: 150px;
+}
+
+.project-btn:hover {
+  color: #ffffff;
+  background-color: #ad1818;
+}
+
+
+
+
+
+
+
+.services {
+  background-color: #121212;
+  margin: 0 auto;
+  width: 1400px;
+  height: 1844px;
+  color: #ffffff;
+}
+
+.list-of-services {
+  padding-left: 125px;
+
+}
+
+.img-services {
+  display: block;
+  width: 270;
+  padding-top: 60px;
+}
+
+header {
+  display: block;
+  width: 1151.35px;
+}
+
+
+
+.navigation {
+  margin: 0 auto;
+  width: 1151px;
+
+  padding-top: 33px;
+  padding-bottom: 74px;
+  display: block;
+
+}
+
+.logo-link {
+  display: inline-block;
+
+}
+
+.logo {
+  display: block;
+  width: 127px;
+  height: 22px;
+}
+
+.nav {
+  display: inline-block;
+  vertical-align: top;
+  padding-inline: 60px;
+  padding-right: 0;
+  float: right;
+
+
+}
+
+.nav-link {
+  display: inline-block;
+  /* width: 91px; */
+  height: 25px;
+  /* margin-left: 60px; */
+  font-size: 18px;
+  color: #121212;
+  text-decoration: none;
+  line-height: 24.59px;
+  text-align: center;
+  padding-inline: 60px;
+  padding-right: 0;
+}
+
+.nav-link:hover {
+  color: #500eeb;
+
+}
+
+.nav-link_active {
+  text-decoration: underline;
+  color: grey;
+}
+
+.img-backgraud {
+  background-image: url(../images/krovat.jpg);
+  width: 1400px;
+  height: 717px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+
+}
+
+
+
+.text-img>h3 {
+
+  color: #ffffff;
+
+  margin-left: 125px;
+
+  font-size: 30px;
+
+  line-height: 40.98px;
+  width: 443px;
+  height: 82px;
+  padding-top: 575px;
+}
+
+.phone {
+  width: 1150px;
+  left: 125px;
+  margin: 150px auto;
+}
+
+.contacts {
+  width: 473px;
+  height: 217px;
+  top: 6615px;
+  left: 124px;
+}
+
+.phone::before {
+  content: url(../images/phone1.jpg);
+  background-image: ;
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  top: 6579px;
+  left: 120 px;
+  margin-top: 120px;
+}
+
+.contacts>h2 {
+  padding: 12px 0;
+  padding-bottom: 32px;
+}
+
+.contacts>a {
+  color: gray;
+  text-decoration: none;
+}
+
+hr {
+  width: 406px;
+  margin: 0;
+}
+
+.tel:hover {
+  color: blue;
+}
+
+.mail:hover {
+  color: #500eeb;
+}
+
+.footer {
+  width: 1400px;
+  height: 229px;
+  background-color: #121212;
+  vertical-align: top;
+  padding-inline: 60px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer-link {
+  display: inline-block;
+  height: 25px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  line-height: 24.59px;
+  text-align: center;
+  padding-inline: 60px;
+  margin: 60px auto;
+}
+
+.footer-link:hover {
+  color: #500eeb;
+}
+
+.footer-link_active {
+  text-decoration: underline;
+  color: grey;
+}
+
+.final {
+  position: absolute;
+  width: 500px;
+  height: 27px;
+  font-size: 20px;
+  font-weight: 420px;
+  line-height: 27px;
+  letter-spacing: -3%;
+  margin-top: 40px;
+  margin-left: 400px;
+  color: #ffffff;
+  text-align: white;
+}
+
+.footer.final.p {
+  margin-right: 502px;
+}
